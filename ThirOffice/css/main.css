@@ -1,0 +1,259 @@
+
+.main h1 {
+    margin: 1em;
+}
+
+.main h3 {
+    margin: 1.6em;
+    color: #DD5544;
+}
+
+.main hr {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.main li {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #bdbdbd;
+    color: #DD5544;
+    font-weight: bolder;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    padding-top: 3px;
+}
+
+.main li br {
+    margin-bottom: 0.5em;
+}
+
+.main li .label {
+    margin-left: 1em;
+    margin-right: 1em;
+    min-width: 10em;
+    display: inline-block;
+}
+
+.main li .text {
+    text-align: center;
+    padding: 2px;
+    font-size: medium;
+    display: inline-block;
+}
+
+.main li .button {
+    text-align: center;
+    padding: 2px;
+    font-size: medium;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
+    min-width: 10em;
+    display: block;
+}
+
+.main li a {
+    color: #555555;
+}
+
+.main li .timestamp {
+    font-size: 0.6em;
+    float: right;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+    clear:both;
+}
+
+.note_message {
+    clear: both;
+    color: #DD5544;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 1em;
+    overflow: hidden;
+    text-align: center;
+}
+
+.note_skip {
+    clear: both;
+    font-weight: bolder;
+    margin: 1em;
+    overflow: hidden;
+    text-align: center;
+}
+
+.main p {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.title_welcome {
+    padding-left: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+    background-image: linear-gradient(0deg,#56d0ff,#2554c4);
+}
+
+.title_action_lang {
+    font-size: 0.3em;
+    text-align: right;
+}
+
+.title_action_lang a {
+    color: white;
+    margin-right: 5%;
+}
+
+.title_action_bar {
+    font-size: small;
+    overflow: hidden;
+    padding-right: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #888;
+    min-height: 1em;
+}
+
+.title_action {
+    text-align: right;
+    margin-right: 1em;
+    float: right;
+}
+
+.title_action a {
+    color: #6e6e6e;
+    font-weight: bolder;
+    margin-left: 1em;
+}
+
+.list_action {
+    overflow: hidden;
+    margin-left: 1em;
+}
+
+.list_action a {
+    margin-right: 1em;
+    color: #db452b;
+    font-weight: bolder;
+}
+
+.hilight_action{
+    text-align: center;
+}
+
+.hilight_action a{
+    color: #FFF;
+    font-weight: bolder;
+    background-color: #1fa331;
+    border-style: solid;
+    border-radius: 1em;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+.hilight_action a:hover
+{ 
+    background-color: #c0dd1e;
+}
+
+.search_bar
+{
+    color: #6e6e6e;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.search_bar .input
+{
+    width: 30em;
+}
+
+.search_bar .input
+{
+    width: 30em;
+}
+
+.experience_title
+{
+    text-align: center;
+}
+
+.experience_title h1
+{
+    font-size: 30px;
+}
+
+.experience_title h3
+{
+    font-size: 16px;
+    color: #6e6e6e;
+}
+
+.experience_title h4
+{
+    font-size: 14px;
+}
+
+.experience_title .title_input
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    width: 20em;
+    padding: 0.5em 0.2em;
+    outline-style: none;
+    border: 1px solid #ccc;
+}
+
+.experience_title .keyword_input
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 16px;
+    width: 30em;
+    padding: 0.5em 0.2em;
+    outline-style: none;
+    border: 1px solid #ccc;
+}
+
+.copyright {
+    clear: both;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    padding-top: 0.5em;
+    width: 45em;
+}
+
+#import_url {
+    width: 32em;
+}
+
+#wait_box {
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#wait_box img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+}

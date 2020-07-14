@@ -1,0 +1,90 @@
+<?php
+$lang->index->title="思办公室";
+$lang->index->welcome="欢迎来到\"思\"办公室";
+$lang->index->index="回首页";
+$lang->index->logout="登出";
+$lang->index->change_lang="英语(English)";
+$lang->index->change_pswd="修改密码";
+$lang->index->copyright="版权所有@2019, thirchina 保留所有权利.";
+
+$lang->home->metting_room="会议室预定";
+$lang->home->metting_room_desc="预定会议室，查看会议室预定情况。";
+$lang->home->experience="经验分享";
+$lang->home->experience_desc="分享你的经验，搜索、阅读已经分享的经验。";
+$lang->home->manage_user="管理用户";
+$lang->home->manage_user_desc="管理用户，列出所有用户，更新信息，删除用户，创建用户";
+
+$lang->user->login="登录";
+$lang->user->login_name="登录名";
+$lang->user->login_name_hint="登录名";
+$lang->user->login_pswd="登录密码";
+$lang->user->login_pswd_hint="密码";
+$lang->user->pswd_old="当前密码";
+$lang->user->pswd_old_hint="当前密码";
+$lang->user->pswd_new="新密码";
+$lang->user->pswd_new_hint="新密码";
+$lang->user->pswd_retry="重试密码";
+$lang->user->pswd_retry_hint="重试密码";
+$lang->user->change_pswd="提交修改";
+$lang->user->back="返回";
+$lang->user->btn_update="更新";
+$lang->user->btn_delete="删除";
+$lang->user->btn_reset="重置秘钥";
+$lang->user->btn_add="添加";
+
+$lang->metting_room->book_metting_room="预定会议室：";
+$lang->metting_room->start_time="开始时间";
+$lang->metting_room->stop_time="结束时间";
+$lang->metting_room->book="预定";
+$lang->metting_room->cancel_by_id="取消预定（通过编号）：";
+$lang->metting_room->prev="上一页";
+$lang->metting_room->next="下一页";
+$lang->metting_room->book_id="预定号";
+$lang->metting_room->cancel="取消";
+$lang->metting_room->idle="空闲";
+$lang->metting_room->booked="已预订";
+$lang->metting_room->room="会议室";
+
+$lang->experience->create_document="创建文档";
+$lang->experience->capture_from_link="从链接抓取";
+$lang->experience->key_word="关键字";
+$lang->experience->go_search="给我搜";
+$lang->experience->total_found="总共找到：";
+$lang->experience->records=" 条 记录";
+$lang->experience->prev="上一页";
+$lang->experience->next="下一页";
+
+$lang->experience_content->modify_history="修改历史:";
+$lang->experience_content->edit="编辑";
+$lang->experience_content->save="保存";
+$lang->experience_content->title="标题";
+$lang->experience_content->keyword="关键字";
+$lang->experience_content->import_url="从网址导入:";
+
+$lang->note->nothing_to_do="ㄟ( ▔, ▔ )ㄏ<br/><br/> 没有可用的处理!";
+$lang->note->page_not_found="ㄟ( ▔, ▔ )ㄏ<br/><br/> [404] 页面找不到了!";
+$lang->note->login_success="(*^▽^*)<br/><br/> 欢迎回来 !";
+$lang->note->logout_success="(*^▽^*)<br/><br/> 登出成功 !";
+$lang->note->user_not_exist="ㄟ( ▔, ▔ )ㄏ<br/><br/>用户不存在 !";
+$lang->note->pswd_not_match="ㄟ( ▔, ▔ )ㄏ<br/><br/>密码不匹配 !";
+$lang->note->change_pswd_success="(*^▽^*)<br/><br/> 更新秘钥成功！";
+$lang->note->change_pswd_fail="ㄟ( ▔, ▔ )ㄏ<br/><br/> 更新秘钥失败！";
+$lang->note->change_pswd_fail_pswd="ㄟ( ▔, ▔ )ㄏ<br/><br/> 当前秘钥不正确！";
+$lang->note->change_pswd_fail_retry="ㄟ( ▔, ▔ )ㄏ<br/><br/> 新秘钥和重试不匹配！";
+$lang->note->reset_pswd_sucess="(*^▽^*)<br/><br/> 重设秘钥成功!";
+$lang->note->reset_pswd_fail="ㄟ( ▔, ▔ )ㄏ<br/><br/> 重设秘钥失败!";
+$lang->note->user_create_success="(*^▽^*)<br/><br/> 创建用户成功 !";
+$lang->note->user_create_fail="ㄟ( ▔, ▔ )ㄏ<br/><br/> 创建用户失败 !";
+$lang->note->user_del_success="(*^▽^*)<br/><br/> 删除用户成功 !";
+$lang->note->user_del_fail="ㄟ( ▔, ▔ )ㄏ<br/><br/> 删除用户失败 !";
+$lang->note->user_update_success="(*^▽^*)<br/><br/> 更新用户成功 !";
+$lang->note->user_update_fail="ㄟ( ▔, ▔ )ㄏ<br/><br/> 更新用户失败 !";
+$lang->note->metting_room_cancel_success="(*^▽^*)<br/><br/> 会议室取消成功 !";
+$lang->note->metting_room_cancel_fail="ㄟ( ▔, ▔ )ㄏ<br/><br/> 会议室取消失败 !";
+$lang->note->metting_room_book_success="(*^▽^*)<br/><br/> 会议室预定成功 !";
+$lang->note->metting_room_book_failed="ㄟ( ▔, ▔ )ㄏ<br/><br/> 会议室预定失败 !";
+$lang->note->save_experience_success="(*^▽^*)<br/><br/> 保存经验成功 !";
+$lang->note->save_experience_fail="ㄟ( ▔, ▔ )ㄏ<br/><br/> 保存经验失败 !";
+$lang->note->auto_skip="页面将在自动跳转，还有";
+$lang->note->click_here=" 点击跳转 ";
+?>
